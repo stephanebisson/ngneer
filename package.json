@@ -25,7 +25,6 @@
 	"ngneer" : "./src/bin/main.js" 
 	},
 	"scripts": {
-	  "preinstall": "./scripts/coffee.sh; ./scripts/jslint.sh",
 	  "test": "nodeunit test/*"
 	}
 }

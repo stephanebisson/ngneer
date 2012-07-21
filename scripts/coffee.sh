@@ -1,1 +1,2 @@
-echo "this is coffee.sh"
+coffee -c src/
+coffee -c test/
