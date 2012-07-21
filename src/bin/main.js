@@ -2,7 +2,6 @@
 
 'use strict';
 
-
 var program = require('commander');
 var ngneer = require('../lib/ngneer.js').ngneer;
 var npmConfig = require('../../package.json');
