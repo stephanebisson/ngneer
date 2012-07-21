@@ -2,6 +2,7 @@
   "author": "Stephane Bisson <stephane.c.bisson@gmail.com>",
   "name": "ngneer",
   "description": "Scaffolding tool for angularjs",
+  "keywords": ["angularjs", "scaffold"],
   "version": "0.1.0",
   "repository": {
     "type": "git",
