@@ -7,11 +7,13 @@
     "type": "git",
     "url": "git://github.com/stephanebisson/ngneer.git"
   },
-  "dependencies": {},
+  "dependencies": {
+	"commander": "1.0.0"
+},
   "devDependencies": {},
   "optionalDependencies": {},
   "engines": {
     "node": "*"
   },
-  "bin" : { "ngneer" : "./bin/ngneer.js" }
+  "bin" : { "ngneer" : "./bin/main.js" }
 }
