@@ -2,14 +2,16 @@
 	<head>
 		<script type="text/javascript" src="http://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
 		<script type="text/javascript">
-			function MyController($scope) {
+			var myApp = angular.module('myApp', []);
+			
+			myApp.controller('MyController', ['$scope', function ($scope) {
 				$scope.beers = [
 					{name: 'the river', type: 'lager', alcool: 4.25}, 
 					{name: 'rising sun', type: 'ale', alcool: 5.5},
 					{name: 'the dark side', type: 'stout', alcool: 6.1}];
 					
 				$scope.add = function(){
-					$scope.beers.push({});
+					$scope.beers.push({alcool: 5});
 				};	
 				
 				$scope.remove = function(beer){
@@ -22,11 +24,10 @@
 					angular.forEach($scope.beers, function(beer){ sum += beer.alcool;});
 					return sum / $scope.beers.length;
 				};
-				
-			}
+			}]);
 		</script>
 	</head>
-	<body ng-app ng-controller="MyController">
+	<body ng-app="myApp" ng-controller="MyController">
 		<h1>Some beers</h1>
 		<div ng-repeat="beer in beers">
 			<input type="text" ng-model="beer.name" placeholder="name"/>

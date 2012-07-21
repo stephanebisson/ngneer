@@ -7,3 +7,4 @@ Backlog
 --
 1. ~~refactor ipa into a real vanilla~~
 2. beef up ipa with a module
+3. tech: setup ci
