@@ -2,4 +2,6 @@
 
 var args = process.argv.slice(2);
 
-console.log('ngneer: ', args);
+var ngneer = require('../lib/ngneer.js');
+
+new ngneer.App(args).run();
