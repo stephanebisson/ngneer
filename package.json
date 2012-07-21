@@ -1,30 +1,31 @@
 {
-  "author": "Stephane Bisson <stephane.c.bisson@gmail.com>",
-  "name": "ngneer",
-  "description": "Scaffolding tool for AngularJS",
-  "keywords": ["angularjs", "scaffold"],
-  "version": "0.1.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/stephanebisson/ngneer.git"
-  },
-  "dependencies": {
-	"commander": ">= 1.0.0",
-	"fs.extra": ">= 1.1.5"
-},
-  "devDependencies": {
-	"nodeunit": ">= 0.7.4",
-	"coffee-script": ">= 1.3.3",
-	"jslint": ">= 0.1.8"
-},
-  "optionalDependencies": {},
-  "engines": {
-    "node": "*"
-  },
-  "bin" : { 
-	"ngneer" : "./src/bin/main.js" 
+	"author": "Stephane Bisson <stephane.c.bisson@gmail.com>",
+	"name": "ngneer",
+	"description": "Scaffolding tool for AngularJS",
+	"keywords": ["angularjs", "scaffold"],
+	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/stephanebisson/ngneer.git"
+	},
+	"dependencies": {
+		"commander": ">= 1.0.0",
+		"fs.extra": ">= 1.1.5"
+	},
+	"devDependencies": {
+		"nodeunit": ">= 0.7.4",
+		"coffee-script": ">= 1.3.3",
+		"jslint": ">= 0.1.8"
+	},
+	"optionalDependencies": {},
+	"engines": {
+		"node": "*"
+	},
+	"bin": {
+		"ngneer": "./src/bin/main.js"
 	},
 	"scripts": {
-	  "test": "nodeunit test/*"
+		"test": "nodeunit test/*",
+		"watch": "coffee -c src"
 	}
 }
