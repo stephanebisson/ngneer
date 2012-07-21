@@ -1,0 +1,15 @@
+<html>
+	<head>
+		<script type="text/javascript" src="http://code.angularjs.org/1.0.1/angular-1.0.1.js"></script>
+		<script type="text/javascript">
+			function MyController($scope) {
+				$scope.name = 'world';
+			}
+		</script>
+	</head>
+	<body ng-app ng-controller="MyController">
+		Your name: <input type="text" ng-model="name"/>
+		<br/>
+		Hello {{name}}
+	</body>
+</html>

@@ -7,8 +7,15 @@ var npmConfig = require('../package.json');
 program.version(npmConfig.version);
 
 program
-    .command('ipa')
+    .command('vanilla')
     .description('the simplest angularjs single-page app')
+    .action(function(){
+        ngneer.vanilla();
+    });
+    
+program
+    .command('ipa')
+    .description('another angularjs single-page app')
     .action(function(){
         ngneer.ipa();
     });
