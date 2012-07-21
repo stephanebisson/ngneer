@@ -11,7 +11,10 @@ Backlog
 4. ~~tech: jslint~~
 
 --
-1. scaffold service with test
+1. scaffold the seed with a user-provided name (and update the readme)
+
+--
+1. scaffold service with test (assume the seed project structure)
 2. refactor the templates for auto-discovery
 3. add test coverage
 
