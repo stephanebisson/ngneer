@@ -2,13 +2,14 @@
   "author": "Stephane Bisson <stephane.c.bisson@gmail.com>",
   "name": "ngneer",
   "description": "Scaffolding tool for angularjs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/stephanebisson/ngneer.git"
   },
   "dependencies": {
-	"commander": "1.0.0"
+	"commander": "1.0.0",
+	"fs.extra": "1.1.5"
 },
   "devDependencies": {},
   "optionalDependencies": {},
