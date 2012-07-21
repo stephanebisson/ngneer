@@ -16,6 +16,7 @@ Based on
 - nodejs
 - commanderjs
 - nodeunit
+- coffee-script
 
 ## Installation
 

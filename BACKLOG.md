@@ -23,3 +23,4 @@ self documented code
 reference to angularjs documentation
 ngneer config (src path, test path, runner)
 what about jslint?
+coffee-script
