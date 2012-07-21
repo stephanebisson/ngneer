@@ -7,4 +7,9 @@ Backlog
 --
 1. ~~refactor ipa into a real vanilla~~
 2. ~~beef up ipa with a module~~
-3. tech: setup ci
+3. ~~tech: setup ci~~
+
+--
+1. scaffold service with test
+2. refactor the templates for auto-discovery
+3. add test coverage

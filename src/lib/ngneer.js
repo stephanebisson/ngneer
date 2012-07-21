@@ -1,7 +1,7 @@
 var fs = require('fs.extra');
 exports.ngneer = {
     copySinglePageApp: function(flavour){
-        var src = process.env.NODE_PATH + '/ngneer/templates/' + flavour + '/index.html',
+        var src = process.env.NODE_PATH + '/ngneer/src/templates/' + flavour + '/index.html',
             dest = process.cwd() + '/index.html';            
         fs.copy(src, dest);
         console.log('Your', flavour, 'application has been created.');

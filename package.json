@@ -20,7 +20,7 @@
     "node": "*"
   },
   "bin" : { 
-	"ngneer" : "./bin/main.js" 
+	"ngneer" : "./src/bin/main.js" 
 	},
 	"scripts": {
 	  "test": "nodeunit test/*"
