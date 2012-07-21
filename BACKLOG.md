@@ -8,6 +8,7 @@ Backlog
 1. ~~refactor ipa into a real vanilla~~
 2. ~~beef up ipa with a module~~
 3. ~~tech: setup ci~~
+4. ~~tech: jslint~~
 
 --
 1. scaffold service with test
@@ -16,11 +17,10 @@ Backlog
 
 --
 
-filter, directive, controller, service, module
-vanilla or all-dressed
-with unit test
-self documented code
-reference to angularjs documentation
-ngneer config (src path, test path, runner)
-what about jslint?
-coffee-script
+- filter, directive, controller, service, module
+- vanilla or all-dressed
+- with unit test
+- self documented code
+- reference to angularjs documentation
+- ngneer config (src path, test path, runner)
+- coffee-script
