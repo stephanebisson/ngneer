@@ -3,4 +3,6 @@ node_js:
   - 0.6
   
 notifications:
-    email: false
+    email: 
+        on_success: change
+        on_failure: always
