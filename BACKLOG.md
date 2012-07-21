@@ -13,3 +13,13 @@ Backlog
 1. scaffold service with test
 2. refactor the templates for auto-discovery
 3. add test coverage
+
+--
+
+filter, directive, controller, service, module
+vanilla or all-dressed
+with unit test
+self documented code
+reference to angularjs documentation
+ngneer config (src path, test path, runner)
+what about jslint?
