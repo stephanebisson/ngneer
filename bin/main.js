@@ -1,7 +1,14 @@
 #!/usr/bin/env node
 
-var args = process.argv.slice(2);
+var program = require('commander');
 
-var ngneer = require('../lib/ngneer.js');
+program.version('0.0.0');
 
-new ngneer.Ngneer(args).run();
+program
+    .command('ipa')
+    .description('the simplest angularjs single-page app')
+    .action(function(){
+        console.log('this is ipa');
+    });
+    
+program.parse(process.argv);    
