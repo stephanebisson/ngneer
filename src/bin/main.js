@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+xcZXcZXczx
 'use strict';
 
 var program = require('commander');

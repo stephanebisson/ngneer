@@ -21,6 +21,7 @@ exports.ngneer = {
         name = name || 'angular-seed';
         var gitClone = "git clone git://github.com/angular/angular-seed.git " + name;
         var removeGit = "rm -rf " + name + '/.git';
+                
         exec(gitClone, function (error) {
             if (!error) {
                 exec(removeGit, function (error) {

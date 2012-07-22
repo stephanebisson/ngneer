@@ -1,0 +1,26 @@
+#!/usr/bin/env coffee
+
+'use strict'
+
+program = require 'commander'
+ngneer = require('../lib/ngneer.js').ngneer
+npmConfig = require '../../package.json'
+
+program.version npmConfig.version
+
+program
+    .command('vanilla')
+    .description('the simplest angularjs single-page app')
+    .action(ngneer.vanilla)
+
+program
+    .command('ipa')
+    .description('another angularjs single-page app')
+    .action(ngneer.ipa)
+
+program
+    .command('seed [name]')
+    .description('Get started with the official AngularJS seed project for free!')
+    .action(ngneer.seed)
+
+program.parse process.argv
