@@ -22,4 +22,12 @@ program
         ngneer.ipa();
     });
 
+program
+    .command('seed [name]')
+    .description('Get started with the official AngularJS seed project for free!')
+    .action(function (name) {
+        ngneer.seed(name);
+    });
+
+
 program.parse(process.argv);
